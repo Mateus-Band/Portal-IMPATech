@@ -1,15 +1,14 @@
 module.exports = {
   darkMode: "class",
   content: [
-    './app/views/**/*.html.erb',
-    './app/helpers/**/*.rb',
-    './app/assets/stylesheets/**/*.css',
-    './app/javascript/**/*.js'
+    "./app/views/**/*.html.erb",
+    "./app/javascript/**/*.js",
+    "./app/helpers/**/*.rb",
   ],
   theme: {
     extend: {
       colors: {
-        impaBlue: "#1e4fa8",
+        impaBlue: "#CCC4AF", // bege IMPA Tech
       },
     },
   },
