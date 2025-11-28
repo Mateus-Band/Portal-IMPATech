@@ -1,0 +1,12 @@
+<% content_for :title, @discipline[:title] %>
+
+<h1 class="text-2xl font-bold text-blue-700 dark:text-blue-400 mb-4">
+  <%= @discipline[:title] %>
+</h1>
+
+<p class="text-gray-700 dark:text-gray-300 mb-8">
+  <%= @discipline[:desc] %>
+</p>
+
+<%= link_to "← Voltar para Disciplinas", disciplines_path, 
+    class: "text-blue-600 dark:text-blue-400 underline hover:text-blue-800 dark:hover:text-blue-300" %>

@@ -1,0 +1,14 @@
+<header class="bg-impaBlue text-white px-6 py-4 flex justify-between items-center">
+  <%= link_to root_path, class: "flex items-center gap-3" do %>
+    <%= image_tag "logo.svg", alt: "IMPA Tech", class: "w-30 h-auto" %>
+    <span class="text-xl font-semibold">Portal IMPA Tech</span>
+  <% end %>
+
+  <nav class="space-x-6 flex items-center">
+    <%= link_to "Início", root_path, class: "hover:underline" %>
+    <%= link_to "Disciplinas", disciplines_path, class: "hover:underline" %>
+    <%= link_to "Admin", admin_path, class: "hover:underline" %>
+    
+    <%= render "layouts/theme_toggle" %>
+  </nav>
+</header>
