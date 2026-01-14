@@ -1,2 +1,2 @@
-web: bin/rails server -p 3000
-css: bin/rails tailwindcss:watch
+web: bin/rails server -p 8000
+tailwindcss:watch -- --input=./app/assets/stylesheets/tailwind.input.css

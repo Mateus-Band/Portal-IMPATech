@@ -2,3 +2,5 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import "theme_toggle"
+
+console.log("application.js carregado");

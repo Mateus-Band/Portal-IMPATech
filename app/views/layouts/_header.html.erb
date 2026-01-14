@@ -1,13 +1,13 @@
-<header class="bg-impaBlue text-gray-900 px-6 py-4 flex justify-between items-center">
-  <%= link_to root_path, class: "flex items-center gap-3" do %>
+<header class="bg-[#CCC4AF] text-gray-900 dark:text-gray-900 px-6 py-4 flex justify-between items-center shadow-md">
+  <%= link_to root_path, class: "flex items-center gap-3 hover:opacity-80 transition" do %>
     <%= image_tag "logo.svg", alt: "IMPA Tech", class: "h-10 w-auto" %>
     <span class="text-xl font-semibold">Portal IMPA Tech</span>
   <% end %>
 
   <nav class="space-x-6 flex items-center text-gray-900">
-    <%= link_to "Início", root_path, class: "hover:underline" %>
-    <%= link_to "Disciplinas", disciplines_path, class: "hover:underline" %>
-    <%= link_to "Admin", admin_path, class: "hover:underline" %>
+    <%= link_to "Início", root_path, class: "hover:underline transition" %>
+    <%= link_to "Disciplinas", disciplines_path, class: "hover:underline transition" %>
+    <%= link_to "Admin", admin_path, class: "hover:underline transition" %>
 
     <%= render "layouts/theme_toggle" %>
   </nav>

@@ -1,6 +1,16 @@
- 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* app/assets/stylesheets/application.css */
 
-@import "custom.css";
+/* Removemos o 'body' e 'html' daqui. 
+   Deixe as cores serem controladas pelas classes no arquivo .html.erb */
+
+/* Cor de fundo IMPA personalizada (CSS puro funciona sempre) */
+
+/* Se você precisar do btn-primary, use CSS padrão ou mova para o HTML.
+   Deixei comentado para não causar erro se o @apply não estiver sendo lido */
+/* .btn-primary {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+} 
+*/
